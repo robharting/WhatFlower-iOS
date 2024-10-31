@@ -1,3 +1,7 @@
+Flower Classifier Model: https://drive.google.com/uc?export=download&id=13v58uJqi_pAXKoBa2J7mZ7sLkaSRVUBb
+Or directly the FlowerClassifier.mlmodel file: https://1drv.ms/u/s!AjICf6SNCBMQi0B_-L5MIdw6rJp0?e=Jn7V96
+
+
 with https://github.com/Alamofire/Alamofire for networking and 
 with https://github.com/SwiftyJSON/SwiftyJSON for JSON parsing
 

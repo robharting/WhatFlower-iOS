@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		3620AB152CD367B9008D70D0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3620AB142CD367B9008D70D0 /* Alamofire */; };
 		366EA24D2CD356B100ECDD54 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 366EA24C2CD356B100ECDD54 /* SwiftyJSON */; };
+		36E2700C2CD36CF3005E9CFB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 36E2700B2CD36CF3005E9CFB /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		365A2B342CCF7716007D0422 /* WhatFlower-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhatFlower-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E2700B2CD36CF3005E9CFB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -52,6 +54,7 @@
 		365A2B2B2CCF7715007D0422 = {
 			isa = PBXGroup;
 			children = (
+				36E2700B2CD36CF3005E9CFB /* .gitignore */,
 				365A2B362CCF7716007D0422 /* WhatFlower-iOS */,
 				365A2B352CCF7716007D0422 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E2700C2CD36CF3005E9CFB /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

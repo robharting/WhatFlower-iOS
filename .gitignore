@@ -71,3 +71,6 @@ fastlane/test_output
 
 # firebase api key
 GoogleService-Info.plist
+
+# ignore due to big for github
+FlowerClassifier.mlmodel
