@@ -6,12 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3620AB152CD367B9008D70D0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3620AB142CD367B9008D70D0 /* Alamofire */; };
+		366EA24D2CD356B100ECDD54 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 366EA24C2CD356B100ECDD54 /* SwiftyJSON */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		365A2B342CCF7716007D0422 /* WhatFlower-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhatFlower-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		365A2B462CCF7718007D0422 /* Exceptions for "WhatFlower-iOS" folder in "WhatFlower-iOS" target */ = {
+		3620AB122CD36764008D70D0 /* Exceptions for "WhatFlower-iOS" folder in "WhatFlower-iOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -24,7 +29,7 @@
 		365A2B362CCF7716007D0422 /* WhatFlower-iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				365A2B462CCF7718007D0422 /* Exceptions for "WhatFlower-iOS" folder in "WhatFlower-iOS" target */,
+				3620AB122CD36764008D70D0 /* Exceptions for "WhatFlower-iOS" folder in "WhatFlower-iOS" target */,
 			);
 			path = "WhatFlower-iOS";
 			sourceTree = "<group>";
@@ -36,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				366EA24D2CD356B100ECDD54 /* SwiftyJSON in Frameworks */,
+				3620AB152CD367B9008D70D0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,8 @@
 			);
 			name = "WhatFlower-iOS";
 			packageProductDependencies = (
+				366EA24C2CD356B100ECDD54 /* SwiftyJSON */,
+				3620AB142CD367B9008D70D0 /* Alamofire */,
 			);
 			productName = "WhatFlower-iOS";
 			productReference = 365A2B342CCF7716007D0422 /* WhatFlower-iOS.app */;
@@ -107,6 +116,10 @@
 			);
 			mainGroup = 365A2B2B2CCF7715007D0422;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				366EA24B2CD356B100ECDD54 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				3620AB132CD367B9008D70D0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 365A2B352CCF7716007D0422 /* Products */;
 			projectDirPath = "";
@@ -335,6 +348,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3620AB132CD367B9008D70D0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = exactVersion;
+				version = 4.9.1;
+			};
+		};
+		366EA24B2CD356B100ECDD54 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3620AB142CD367B9008D70D0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3620AB132CD367B9008D70D0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		366EA24C2CD356B100ECDD54 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 366EA24B2CD356B100ECDD54 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 365A2B2C2CCF7715007D0422 /* Project object */;
 }
