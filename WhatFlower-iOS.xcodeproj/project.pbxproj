@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		3620AB152CD367B9008D70D0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3620AB142CD367B9008D70D0 /* Alamofire */; };
 		366EA24D2CD356B100ECDD54 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 366EA24C2CD356B100ECDD54 /* SwiftyJSON */; };
+		36CDCBFC2CD4F367009D1A2A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 36CDCBF12CD4F367009D1A2A /* README.md */; };
+		36CDCBFF2CD511F4009D1A2A /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 36CDCBFE2CD511F4009D1A2A /* SDWebImage */; };
+		36CDCC022CD51CD6009D1A2A /* ColorThiefSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 36CDCC012CD51CD6009D1A2A /* ColorThiefSwift */; };
 		36E2700C2CD36CF3005E9CFB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 36E2700B2CD36CF3005E9CFB /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		365A2B342CCF7716007D0422 /* WhatFlower-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhatFlower-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CDCBF12CD4F367009D1A2A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		36E2700B2CD36CF3005E9CFB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,8 +47,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CDCBFF2CD511F4009D1A2A /* SDWebImage in Frameworks */,
 				366EA24D2CD356B100ECDD54 /* SwiftyJSON in Frameworks */,
 				3620AB152CD367B9008D70D0 /* Alamofire in Frameworks */,
+				36CDCC022CD51CD6009D1A2A /* ColorThiefSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				36E2700B2CD36CF3005E9CFB /* .gitignore */,
+				36CDCBF12CD4F367009D1A2A /* README.md */,
 				365A2B362CCF7716007D0422 /* WhatFlower-iOS */,
 				365A2B352CCF7716007D0422 /* Products */,
 			);
@@ -90,6 +97,8 @@
 			packageProductDependencies = (
 				366EA24C2CD356B100ECDD54 /* SwiftyJSON */,
 				3620AB142CD367B9008D70D0 /* Alamofire */,
+				36CDCBFE2CD511F4009D1A2A /* SDWebImage */,
+				36CDCC012CD51CD6009D1A2A /* ColorThiefSwift */,
 			);
 			productName = "WhatFlower-iOS";
 			productReference = 365A2B342CCF7716007D0422 /* WhatFlower-iOS.app */;
@@ -122,6 +131,8 @@
 			packageReferences = (
 				366EA24B2CD356B100ECDD54 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				3620AB132CD367B9008D70D0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				36CDCBFD2CD511F4009D1A2A /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				36CDCC002CD51CD6009D1A2A /* XCRemoteSwiftPackageReference "ColorThiefSwift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 365A2B352CCF7716007D0422 /* Products */;
@@ -138,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CDCBFC2CD4F367009D1A2A /* README.md in Resources */,
 				36E2700C2CD36CF3005E9CFB /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,6 +382,22 @@
 				minimumVersion = 5.0.2;
 			};
 		};
+		36CDCBFD2CD511F4009D1A2A /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.20.0;
+			};
+		};
+		36CDCC002CD51CD6009D1A2A /* XCRemoteSwiftPackageReference "ColorThiefSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yamoridon/ColorThiefSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -382,6 +410,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 366EA24B2CD356B100ECDD54 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
+		};
+		36CDCBFE2CD511F4009D1A2A /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36CDCBFD2CD511F4009D1A2A /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		36CDCC012CD51CD6009D1A2A /* ColorThiefSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36CDCC002CD51CD6009D1A2A /* XCRemoteSwiftPackageReference "ColorThiefSwift" */;
+			productName = ColorThiefSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
